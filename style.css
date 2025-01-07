@@ -134,6 +134,7 @@ header{
 
 
 .thumbnail {
+  scroll-snap-align: center;
   position: absolute;
   bottom: 50px;
   z-index: 11;
@@ -149,6 +150,7 @@ header{
 
 .thumbnail::-webkit-scrollbar{
   width: 0;
+  scroll-snap-type: x mandatory;
 }
 
 .slide {
